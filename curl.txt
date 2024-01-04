@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name":"test","payload": { "timeout": "8" }}' \
+  http://localhost:8080/add-task
